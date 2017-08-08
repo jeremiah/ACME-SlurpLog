@@ -3,7 +3,7 @@
 ACME-SlurpLog is a tool to read Apache2 log files. No more, no less.
 It is not an industrial strength solution to all the world's problems.
 
-# INSTALLATION
+# Installation
 
 To install this module, run the following commands:
 
@@ -12,7 +12,7 @@ To install this module, run the following commands:
 	make test
 	make install
 
-# SUPPORT AND DOCUMENTATION
+# Support and documentation
 
 After installing, you can find documentation for this module with the
 perldoc command.
@@ -34,7 +34,7 @@ You can also look for information at:
         http://search.cpan.org/dist/ACME-SlurpLog/
 
 
-# LICENSE AND COPYRIGHT
+# License and copyright
 
 Copyright (C) 2012 Jeremiah C. Foster
 
