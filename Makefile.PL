@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     NAME                => 'ACME::SlurpLog',
-    AUTHOR              => q{Jeremiah C. Foster <jeremiah.foster@pelagicore.com>},
+    AUTHOR              => q{Jeremiah C. Foster <jeremiah@jeremiahfoster.com>},
     VERSION_FROM        => 'lib/ACME/SlurpLog.pm',
     ABSTRACT_FROM       => 'lib/ACME/SlurpLog.pm',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
