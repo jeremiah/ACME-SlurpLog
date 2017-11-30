@@ -1,7 +1,21 @@
 # ACME-SlurpLog
 
-ACME-SlurpLog is a tool to read Apache2 log files. No more, no less.
-It is not an industrial strength solution to all the world's problems.
+ACME-SlurpLog is a tool to read Apache2 log files. Since the Apache 2
+log file can take a number of formats
+[http://httpd.apache.org/docs/current/mod/mod_log_config.html] this
+log works on capturing the whole line regardless of format.
+
+# Usage
+
+ACME-Slurplog is written as a perl module and can be used in the usual
+way. After installation, bring in ACME-Slurplog into your perl script
+this way;
+
+```perl
+  use ACME::SlurpLog;
+
+  my $log_array_ref = ACME::SlurpLog->new();
+```
 
 # Installation
 
@@ -38,9 +52,7 @@ You can also look for information at:
 
 Copyright (C) 2012 Jeremiah C. Foster
 
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See http://dev.perl.org/licenses/ for more information.
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License version 3 as
+published by the Free Software Foundation.
 
